@@ -1,0 +1,51 @@
+/* mobiili css */
+
+@media only screen and (max-width: 823px){
+
+    /* elementit allekkain 100% leveydelle */
+
+    header,
+    header > div.logo,
+    header > nav,
+    header nav a,
+    section,
+    main {
+        display: block;
+        float: none;
+        height: auto;
+        width: 100%;
+        /* text-align: center; */
+        clear: both;
+        position: relative;
+        padding: 0;
+    }
+    
+    header nav {
+        text-align: center;
+    }
+
+    header nav a {
+        padding: 5px 0;
+    }
+
+    .v-centre, .o-left{
+        display: block;
+        position: relative;
+        transform: none;
+    }
+    .showcase {
+    
+        background-color: #0a275e;
+        color: var(--teksti-vaalea);
+        width: 100%;
+        max-width: 100%;
+        padding: 2% 0;
+        text-align: center;
+        font-size: 1.3em;
+        line-height: 1.3em;
+    
+        padding-top: 50px;
+        
+    }
+
+}

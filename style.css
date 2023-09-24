@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+:root{
+    --teksti: #131212;
+    --tausta: #eeeeee;
+    --teksti-vaalea: #dddddd;
+    --linkki_tausta: #214994;
+    --viiva: #1d1a1a;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.v-center {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--tausta);
+    color: var(--teksti);
+}
+
+header  {
+    background-color: var(--linkki_tausta);
+    color: var(--teksti-vaalea);
+    padding: 10px;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    border-bottom: var(--viiva) solid 5px;
+
+}
+
+header .logo {
+    float: right;
+}
+
+header nav {
+    float: left;
+}
+
+header nav a {
+    display: inline-block;
+    font-size: 1.5em;
+    color: var(--teksti-vaalea);
+    text-decoration: none;
+    padding: 0.7em;
+}
+
+header nav a:hover {
+    color :var(--teksti);
+    background-color: var(--tausta);
+}
+
+main {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    padding-top: 80px;
+}
+
+section {
+    max-width: 1100px;
+    width: 70%;
+    margin:20px auto;
+}
+
+.showcase {
+    
+    background-color: #0a275e;
+    color: var(--teksti-vaalea);
+    width: 100%;
+    max-width: 100%;
+    padding: 2% 0;
+    text-align: center;
+    font-size: 1.7em;
+    line-height: 1.7em;
+
+    padding-top: 50px;
+    
+}
+
+.showcase > div {
+    color: var(--teksti-vaalea);
+    max-width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+.otsikko-text:hover {
+    text-decoration: underline;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+td, th {
+    border: 3px solid var(--teksti);
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+}
+
+.ingressi {
+    color: var(--teksti);
+
+}
+
+footer {
+    background-color: var(--viiva);
+    color: var(--teksti-vaalea);
+    padding: 30px 0;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.li_elementti {
+    padding: 0;
+}
+.li_elementti > li {
+    list-style-type: none;
+}
+.li_elementti > li > ul {
+    border-left: var(--linkki_tausta) solid 5px;
+}
+
+.li_elementti > li > ul li {
+    padding: 0;
+}
+
+.o-left {
+    position: absolute;
+    left: 0;
+}
+
+.v-center {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+}
+
+.content {
+    padding-left: 15px;
+}
+
